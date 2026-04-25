@@ -21,7 +21,6 @@ export default function API() {
 
   return (
     <div>
-      <h2>Pokemon Gotta Catch Em' All</h2>
       {console.log(pokemon)}
       {pokemon.map((pokemon)=>(
         <Pokemon key={pokemon.id} name={pokemon.name}/>
