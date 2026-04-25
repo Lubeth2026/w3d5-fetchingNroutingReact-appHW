@@ -1,12 +1,14 @@
 
 import './App.css'
+import API from './pokemonApp/API'
 
 function App() {
   
 
   return (
     <>
-      <h1>Welcome</h1>
+      <h1>React Router App Week 3 Day 5</h1>
+      <API/>
     </>
   )
 }

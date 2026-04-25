@@ -1,1 +1,21 @@
 
+body{
+    background-color: lightsalmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+  font-family: sans-serif;
+  color: brown;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+p{
+  font-family: sans-serif;
+  color: indianred;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
