@@ -15,9 +15,8 @@ function App() {
       <h1>React Router App Week 3 Day 5</h1>
       <Routes>
         <Route path="/" element={<Home/>}/>
-        <Route path="/about" element={<Pokemon/>}/>
+        <Route path="/about" element={<API/>}/>
       </Routes>
-      <API/>
     </>
   )
 }
